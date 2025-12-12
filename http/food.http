@@ -1,0 +1,32 @@
+POST http://localhost:3001/api/food
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjBlYWFlZDIwOTViNTU5Mzk0ZCIsImlhdCI6MTc2NTM0Mjc4NiwiZXhwIjoxNzY1MzQzMDg2fQ.i9l1Xaa-hiI_IEZs9FGV31ahw8B8G6FTA-DM9Yn_i94
+
+{
+    "payment_method": "321",
+    "description": "12321",
+    "price": 24.09,
+    "image_url": "3123"
+}
+
+###
+PUT http://localhost:3001/api/food/6938f3d9d8d1da1786e77d52
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjBlYWFlZDIwOTViNTU5Mzk0ZCIsImlhdCI6MTc2NTM0Mjc4NiwiZXhwIjoxNzY1MzQzMDg2fQ.i9l1Xaa-hiI_IEZs9FGV31ahw8B8G6FTA-DM9Yn_i94
+ 
+{
+    "name": "321",
+    "description": "412123",
+    "price": 24.09,
+    "image_url": "3123",
+    "is_available": false
+}
+
+###
+DELETE http://localhost:3001/api/food/6938f3ead8d1da1786e77d54
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjBlYWFlZDIwOTViNTU5Mzk0ZCIsImlhdCI6MTc2NTM0Mjc4NiwiZXhwIjoxNzY1MzQzMDg2fQ.i9l1Xaa-hiI_IEZs9FGV31ahw8B8G6FTA-DM9Yn_i94
+
+###
+GET http://localhost:3001/api/food
+Content-Type: application/json

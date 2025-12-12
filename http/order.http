@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/order
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjBlYWFlZDIwOTViNTU5Mzk0ZCIsImlhdCI6MTc2NTM2NDExNywiZXhwIjoxNzY1MzY0NDE3fQ.Z4MNvQ-HqUEUVJwwNq5y3c6U4Cte8ALKoXjhwVvtZ8E
+
+{
+    "payment_method": "Cash"
+}
+
+###
+PUT http://localhost:3001/api/order/69395130412bb2a75006e067
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjQ2ZjQ4NDJjMTEyMDIyNjMyOCIsImlhdCI6MTc2NTQyMjY3MSwiZXhwIjoxNzY1NDIyOTcxfQ.JSvjwH_OXRwrrYx3bxVT3Qmn17r91Z4zrxqfQQrfbxw
+ 
+{
+    "status": "completed"
+}
+
+###

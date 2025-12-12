@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/cart/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5Mzg1OGY5OTA1ZTJkYjdhNzIxZDgyNyIsImlhdCI6MTc2NTQyODE5MSwiZXhwIjoxNzY1NDI4NDkxfQ.SRbX4dmtLfolp4B6l5eFXTYCaD-sXj-FBqs68UjrekU
+
+{
+    "food_id" : "6938f8f698328fa0f7650560",
+    "quantity": "1",
+    "price": "12"
+}
+
+###
+POST http://localhost:3001/api/cart/remove
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5Mzg1OGY5OTA1ZTJkYjdhNzIxZDgyNyIsImlhdCI6MTc2NTQyODE5MSwiZXhwIjoxNzY1NDI4NDkxfQ.SRbX4dmtLfolp4B6l5eFXTYCaD-sXj-FBqs68UjrekU
+
+{
+    "food_id" : "6938f8f698328fa0f7650560",
+    "quantity": "1",
+    "price": "12"
+}

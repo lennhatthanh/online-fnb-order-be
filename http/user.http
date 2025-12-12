@@ -1,0 +1,28 @@
+POST http://localhost:3001/api/auth/register
+Content-Type: application/json
+
+{
+    "name" : "123",
+    "email" : "321111ăàfư@gmail.com",
+    "password": "12345678"
+}
+
+###
+POST http://localhost:3001/api/auth/login
+Content-Type: application/json
+
+{
+    "email" : "321111ăàfư@gmail.com",
+    "password": "12345678"
+}
+
+###
+GET http://localhost:3001/api/auth/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjQ2ZjQ4NDJjMTEyMDIyNjMyOCIsImlhdCI6MTc2NTQ0NjYxMiwiZXhwIjoxNzY1NDQ2OTEyfQ.cQuVjA9-QbdlEiBUQTfj0eBHqmPyt4ikxUwxuZp3xu8
+
+###
+POST http://localhost:3001/api/auth/refresh-token
+Content-Type: application/json
+
+###

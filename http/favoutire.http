@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/favourite
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjQ2ZjQ4NDJjMTEyMDIyNjMyOCIsImlhdCI6MTc2NTM0MjE4MywiZXhwIjoxNzY1MzQyNDgzfQ.odWYuhUtAGXUOnNSqgi1C7ZjFlxAimTsRKNqmYQZg1w
+
+{
+    "_id" : "6938f3ead8d1da1786e77d54"
+}
+
+###
+DELETE http://localhost:3001/api/favourite/6938fbef5031ce1aa8747710
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzhlYjQ2ZjQ4NDJjMTEyMDIyNjMyOCIsImlhdCI6MTc2NTM0MjE4MywiZXhwIjoxNzY1MzQyNDgzfQ.odWYuhUtAGXUOnNSqgi1C7ZjFlxAimTsRKNqmYQZg1w
+
