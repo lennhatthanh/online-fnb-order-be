@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 app.use(
     cors({
-        origin: "*",
+        origin: "https://online-fnb-order-fe.vercel.app",
         credentials: true,
         methods: ["POST", "GET", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],

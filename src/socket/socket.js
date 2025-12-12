@@ -5,7 +5,7 @@ let io;
 export const initSocket = (server) => {
     io = new Server(server, {
         cors: {
-            origin: "*",
+            origin: "https://online-fnb-order-fe.vercel.app",
             methods: ["GET", "POST"],
         },
     });
