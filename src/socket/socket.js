@@ -4,10 +4,10 @@ let io;
 
 export const initSocket = (server) => {
     io = new Server(server, {
-        cors: {
-            origin: "https://online-fnb-order-fe.vercel.app",
-            methods: ["GET", "POST"],
-        },
+        origin: [
+            "https://online-fnb-order-fe.vercel.app",
+            "http://localhost:5173"
+        ]
     });
 
     io.on("connection", (socket) => {
